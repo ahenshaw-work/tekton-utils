@@ -2,7 +2,7 @@
 # Based on Red Hat OpenShift Dev Spaces - Universal Developer Image https://github.com/devfile/developer-images/blob/main/universal/ubi8/Dockerfile
 
 # updateBaseImages.sh can't operate on SHA-based tags as they're not date-based or semver-sequential, and therefore cannot be ordered
-FROM registry.access.redhat.com/ubi9/ubi@sha256:bd30f546dfb78ef0fb7789376afd22671319007af473f03370dafab34302c857
+FROM registry.access.redhat.com/ubi9/ubi@sha256:16e9e43d99e181463513cc84a514859b1abb9460f1c4d9e208da4b4e51cd5cc3
 LABEL maintainer="ahussey"
 
 LABEL com.redhat.component="ubi"
